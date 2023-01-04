@@ -1,97 +1,95 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "DangerSwiftCoverage",
-        "repositoryURL": "https://github.com/f-meloni/danger-swift-coverage",
-        "state": {
-          "branch": null,
-          "revision": "f8dbe265ea8d8d2936d861bff10ea280b742d237",
-          "version": "1.1.0"
-        }
-      },
-      {
-        "package": "Logger",
-        "repositoryURL": "https://github.com/shibapm/Logger",
-        "state": {
-          "branch": null,
-          "revision": "53c3ecca5abe8cf46697e33901ee774236d94cce",
-          "version": "0.2.3"
-        }
-      },
-      {
-        "package": "OctoKit",
-        "repositoryURL": "https://github.com/nerdishbynature/octokit.swift",
-        "state": {
-          "branch": null,
-          "revision": "c391cfba4d33f3f4c7d7d8fa6708970f7d30af82",
-          "version": "0.10.1"
-        }
-      },
-      {
-        "package": "PackageConfig",
-        "repositoryURL": "https://github.com/shibapm/PackageConfig.git",
-        "state": {
-          "branch": null,
-          "revision": "bf90dc69fa0792894b08a0b74cf34029694ae486",
-          "version": "0.13.0"
-        }
-      },
-      {
-        "package": "RequestKit",
-        "repositoryURL": "https://github.com/nerdishbynature/RequestKit.git",
-        "state": {
-          "branch": null,
-          "revision": "fd5e9e99aada7432170366c9e95967011ce13bad",
-          "version": "2.4.0"
-        }
-      },
-      {
-        "package": "Rocket",
-        "repositoryURL": "https://github.com/f-meloni/Rocket",
-        "state": {
-          "branch": null,
-          "revision": "61166b38e229e09b53becef2e495eb99f437438a",
-          "version": "1.0.1"
-        }
-      },
-      {
-        "package": "danger-swift",
-        "repositoryURL": "https://github.com/danger/swift",
-        "state": {
-          "branch": null,
-          "revision": "b8edc077a0a5b27919ef586d1ee3cea908fa154e",
-          "version": "3.3.1"
-        }
-      },
-      {
-        "package": "SwiftShell",
-        "repositoryURL": "https://github.com/kareman/SwiftShell",
-        "state": {
-          "branch": null,
-          "revision": "fb7fc2c9ad8811caf324431a508fb79e3fb74f99",
-          "version": "5.0.1"
-        }
-      },
-      {
-        "package": "Version",
-        "repositoryURL": "https://github.com/mxcl/Version",
-        "state": {
-          "branch": null,
-          "revision": "200046c93f6d5d78a6d72bfd9c0b27a95e9c0a2b",
-          "version": "1.2.0"
-        }
-      },
-      {
-        "package": "Yams",
-        "repositoryURL": "https://github.com/jpsim/Yams",
-        "state": {
-          "branch": null,
-          "revision": "c947a306d2e80ecb2c0859047b35c73b8e1ca27f",
-          "version": "2.0.0"
-        }
+  "pins" : [
+    {
+      "identity" : "danger-swift-coverage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/f-meloni/danger-swift-coverage",
+      "state" : {
+        "revision" : "f8dbe265ea8d8d2936d861bff10ea280b742d237",
+        "version" : "1.1.0"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "logger",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/shibapm/Logger",
+      "state" : {
+        "revision" : "53c3ecca5abe8cf46697e33901ee774236d94cce",
+        "version" : "0.2.3"
+      }
+    },
+    {
+      "identity" : "octokit.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nerdishbynature/octokit.swift",
+      "state" : {
+        "revision" : "c391cfba4d33f3f4c7d7d8fa6708970f7d30af82",
+        "version" : "0.10.1"
+      }
+    },
+    {
+      "identity" : "packageconfig",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/shibapm/PackageConfig.git",
+      "state" : {
+        "revision" : "bf90dc69fa0792894b08a0b74cf34029694ae486",
+        "version" : "0.13.0"
+      }
+    },
+    {
+      "identity" : "requestkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nerdishbynature/RequestKit.git",
+      "state" : {
+        "revision" : "fd5e9e99aada7432170366c9e95967011ce13bad",
+        "version" : "2.4.0"
+      }
+    },
+    {
+      "identity" : "rocket",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/f-meloni/Rocket",
+      "state" : {
+        "revision" : "61166b38e229e09b53becef2e495eb99f437438a",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/danger/swift",
+      "state" : {
+        "revision" : "b8edc077a0a5b27919ef586d1ee3cea908fa154e",
+        "version" : "3.3.1"
+      }
+    },
+    {
+      "identity" : "swiftshell",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kareman/SwiftShell",
+      "state" : {
+        "revision" : "fb7fc2c9ad8811caf324431a508fb79e3fb74f99",
+        "version" : "5.0.1"
+      }
+    },
+    {
+      "identity" : "version",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mxcl/Version",
+      "state" : {
+        "revision" : "200046c93f6d5d78a6d72bfd9c0b27a95e9c0a2b",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "yams",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jpsim/Yams",
+      "state" : {
+        "revision" : "c947a306d2e80ecb2c0859047b35c73b8e1ca27f",
+        "version" : "2.0.0"
+      }
+    }
+  ],
+  "version" : 2
 }
